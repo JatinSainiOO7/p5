@@ -6,7 +6,7 @@ var particles = 5000;
 var particle = [];
 var cols = 0;
 var rows = 0;
-var speed = 5;
+var speed = 10;
 var particleSize = 1;
 var flowfield;
 function setup() {
