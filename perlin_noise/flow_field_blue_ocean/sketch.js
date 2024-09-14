@@ -44,8 +44,8 @@ class Particle{
   }
   move(){
     let angle=noise(this.loc.x/noiseScale, this.loc.y/noiseScale, frameCount/noiseScale)*TWO_PI*noiseStrength; //0-2PI
-    this.dir.x = tan(angle);
-    this.dir.y = -sin(angle);
+    this.dir.x = cos(angle);
+    this.dir.y = sin(angle);
     var vel = this.dir.copy();
     var d =1;  //direction change 
     vel.mult(this.speed*d); //vel = vel * (speed*d)
