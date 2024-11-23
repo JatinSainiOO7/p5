@@ -26,7 +26,7 @@ function Particle() {
   };
 
   this.show = function () {
-    stroke(0, 0, 0, 50);
+    stroke(0);
     strokeWeight(particleSize);
     line(this.pos.x, this.pos.y, this.prevPos.x, this.prevPos.y);
     this.updatePrev();

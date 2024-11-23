@@ -1,13 +1,13 @@
 var inc = 0.1;
 var scl = 10;
-var zoff = 0;
-var alfa = 10;
-var particles = 10000;
+var zoff = 10;
+var alfa = 0;
+var particles = 1000;
 var particle = [];
 var cols = 0;
 var rows = 0;
-var speed = 5;
-var particleSize = 1;
+var speed = 1;
+var particleSize = 0.2;
 var flowfield;
 function setup() {
   createCanvas(windowWidth, windowHeight);
